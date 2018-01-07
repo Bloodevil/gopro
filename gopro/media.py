@@ -4,7 +4,7 @@ import os
 import requests
 import humanize
 from PIL import Image #http://stackoverflow.com/questions/32772596/pip-install-pil-fails
-from StringIO import StringIO
+import io
 
 
 class Media(object):
@@ -38,7 +38,7 @@ class Media(object):
     @property
     def img(self):
         self.download()
-        return Image.open(StringIO(self.content))
+        return Image.open(io.StringIO(self.content))
 
     @property
     def size(self):
