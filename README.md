@@ -4,7 +4,7 @@
 
 ![GoPro](http://cdn.snowboarding.transworld.net/wp-content/blogs.dir/442/files/2014/09/gopro-hero4-new-camera-black-silver-editions-600x342.png)
 
-Works with HERO4 cameras and HERO5 cameras, HERO+ cameras *may* work too. Older cameras are not supported.
+Works with HERO4 cameras, HERO5 cameras and HERO6 cameras. HERO+ cameras *may* work too. Older cameras are not supported.
 
 > NOTE: This library is no longer maintained by @DenisCarriere - @KonradIT will be adding features from firmware updates and merging PRs. There is another python library  [goprohero](https://github.com/joshvillbrandt/goprohero) which you can use too.
 
